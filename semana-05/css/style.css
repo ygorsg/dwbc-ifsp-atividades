@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+nav { 
+  position: relative;
+  margin: 10px;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+}
