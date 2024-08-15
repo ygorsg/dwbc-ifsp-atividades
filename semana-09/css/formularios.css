@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 input[type=text], input[type=email], input[type=tel], input[type=url], textarea, select {
   width: 100%;
   padding: 12px 20px;
