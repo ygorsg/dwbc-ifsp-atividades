@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto; 
+    max-width: 5000px;
+}
+
+.grid-item {
+    width: 50%;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+figcaption {
+    text-align: center; 
+    margin-top: 10px; 
+}
